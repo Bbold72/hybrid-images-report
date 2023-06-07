@@ -46,7 +46,7 @@ The Statue of Liberty is filtered with a low-pass filter, which removes high fre
 
 ### Laplacian and Gaussian Pyramids of Hybrid Images
 
-The Gaussian pyramid is constructed by blurring the image with a low-passed filter. The susequent levels of the pyramid are created by subsampling the blurred image by a factor of two and then filtering. Lower levels of the Gaussain pyramid only show the the low-frequency signals of the hybrid image - the Statue of Liberty.
+The Gaussian pyramid is constructed by blurring the image with a low-passed filter. The subsequent levels of the pyramid are created by subsampling the blurred image by a factor of two and then filtering. Lower levels of the Gaussain pyramid only show the the low-frequency signals of the hybrid image - the Statue of Liberty.
 
 The Laplacian pyramid is constructed by subtracting the unit impulse from each level of the Gaussian pyramid. The higher levels of the Laplacian pyramid show the high-frequency details of the hybrid image, which is the red panda.
 
